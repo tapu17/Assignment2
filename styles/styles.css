@@ -40,8 +40,40 @@ body{ font-family: 'Open Sans', sans-serif;
 } 
 .logo-container p{  font-size: 30px; 
 }
-.background-btn{ background-color:  rgb(225, 32, 177);
+.background-btn{ background-color:  rgb(151, 149, 151);
                 padding: 4px 8px;
                 border-radius: 10px;
 
+}
+
+.banner-container{ border: 1px solid white;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    text-align: center;
+}
+.banner-text{ background:rgba(140, 87, 238, 0.05);
+               border: 1px solid white;
+               width: 50%;
+
+}
+.banner-head{color:rgba(135, 88, 241, 1);
+     
+
+}
+.banner-image{margin-left: 20px;
+              margin-right: 20px;
+             
+}
+.banner-details{ color: green;}
+.btn-sign  {  padding: 4px 8px;
+    border-radius: 10px;
+    color: #FFF;
+    background: #E55473;
+}
+.btn-rogue{ padding: 4px 8px;
+    border-radius: 10px;
+     color: #FFF;
+background: rgb(112, 170, 215); 
 }
