@@ -11,7 +11,9 @@ body{ font-family: 'Open Sans', sans-serif;
                display: flex;
                align-items: center;
                justify-content: space-between;
-}
+               background-image: none}
+
+              
 
 .logo-container img{ width: 50px;
                     margin: 8px;
@@ -50,15 +52,24 @@ body{ font-family: 'Open Sans', sans-serif;
     margin: 50px auto 0;
     max-width: 1400px;
     min-height: 50px;
+    margin-top: 5px;
     display: flex;
     text-align: center;
+    
+}
+#play-text{font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
 }
 .banner-text{ background:rgba(140, 87, 238, 0.05);
                border: 1px solid white;
                width: 50%;
 
 }
-.banner-head{color:rgba(135, 88, 241, 1);
+#banner-head{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
      
 
 }
@@ -68,12 +79,87 @@ body{ font-family: 'Open Sans', sans-serif;
 }
 .banner-details{ color: green;}
 .btn-sign  {  padding: 4px 8px;
-    border-radius: 10px;
-    color: #FFF;
+    border-radius: 11px;
     background: #E55473;
+    color: #FFF;
+   
 }
 .btn-rogue{ padding: 4px 8px;
-    border-radius: 10px;
+    border-radius: 11px;
+    background: rgb(112, 170, 215); 
      color: #FFF;
-background: rgb(112, 170, 215); 
+
+}
+
+.background-container{ background: linear-gradient(90deg,
+     rgba(255, 66, 165, 0.03) 0%,
+      rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+#gamer-text{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+#detais-text{ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.others-text{ text-align: center;
+
+}
+.others-image{ display: flex;
+    gap: 100px;
+    justify-content: center;
+    width: 1200px;
+    height: 320px;
+    border-radius: 8px
+}
+.others-image2{ justify-content: space-between;
+}
+
+.download-items{ display: flex;
+            margin: 160px;
+}
+.download-text{
+     margin: 50px;
+    font-style: normal;
+    font-weight: 700;
+     text-align: justify;
+
+}
+#play-color{color: rgb(225, 32, 177);
+}
+
+#floating-image{ border-radius: 28px;
+               padding: 20px;
+               text-align: center;
+               position: relative;
+               bottom: 170px;
+               margin-right: 170px;
+               
+
+}
+
+.button{padding: 4px 8px;
+    border-radius: 11px;
+    border: #E55473; 
+     color: peachpuff;
+}
+
+.footer{ color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.76);
+    
+}
+.credits{ align-items: center;
+         justify-content: space-between;
 }
