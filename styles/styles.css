@@ -190,3 +190,11 @@ body{ font-family: 'Open Sans', sans-serif;
              align-items: flex-start;
              gap: 60px;
 }
+
+
+/* media responsive styles */
+
+@media screen and ( min-width: 576px) 
+{ header { padding: 12px;}}
+    {nav { flex-direction: column;}} 
+ 
