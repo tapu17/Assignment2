@@ -78,60 +78,60 @@ body{ font-family: 'Open Sans', sans-serif;
              
 }
 .banner-details{ color: green;}
-.btn-sign  {  padding: 4px 8px;
-    border-radius: 11px;
-    background: #E55473;
-    color: #FFF;
+.btn-sign  {padding: 4px 8px;
+            border-radius: 11px;
+            background: #E55473;
+             color: #FFF;
    
 }
 .btn-rogue{ padding: 4px 8px;
-    border-radius: 11px;
-    background: rgb(112, 170, 215); 
-     color: #FFF;
+            border-radius: 11px;
+            background: rgb(112, 170, 215); 
+            color: #FFF;
 
 }
 
 .background-container{ background: linear-gradient(90deg,
-     rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 0%,
       rgba(255, 66, 165, 0.03) 100%);
-    margin-top: 2px;
-    display: flex;
-    justify-content: center;
+      margin-top: 2px;
+      display: flex;
+      justify-content: center;
 }
 #gamer-text{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
+            background-clip: text;
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
 }
 #detais-text{ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+              background-clip: text;
+             -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
 }
 .others-text{ text-align: center;
 
 }
 .others-image{ display: flex;
-    gap: 100px;
-    justify-content: center;
-    width: 1200px;
-    height: 320px;
-    border-radius: 8px
+              gap: 100px;
+              justify-content: center;
+              width: 1200px;
+              height: 320px;
+              border-radius: 8px
 }
 .others-image2{ justify-content: space-between;
 }
 
 .download-items{ display: flex;
-            margin: 160px;
+                 margin: 160px;
 }
 .download-text{
-     margin: 50px;
-    font-style: normal;
-    font-weight: 700;
-     text-align: justify;
+           margin: 50px;
+           font-style: normal;
+           font-weight: 700;
+           text-align: justify;
 
 }
 #play-color{color: rgb(225, 32, 177);
@@ -143,23 +143,44 @@ body{ font-family: 'Open Sans', sans-serif;
                position: relative;
                bottom: 170px;
                margin-right: 170px;
-               
-
 }
 
-.button{padding: 4px 8px;
-    border-radius: 11px;
-    border: #E55473; 
-     color: peachpuff;
+.button{  padding: 4px 8px;
+          border-radius: 11px;
+          border: #E55473; 
+           color: peachpuff;
 }
 
 .footer{ color: aliceblue;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.76);
+         margin-top: 20px;
+         display: flex;
+         align-items: center;
+         background-color: rgba(0, 0, 0, 0.76);
     
 }
-.credits{ align-items: center;
-         justify-content: space-between;
+
+.credits-text{  justify-content: center;
+                display:inline-block;
+                letter-spacing: 4px;
+                 list-style: none;
+}
+
+.social-links{ margin-top: 30px;
+               justify-content: center;
+               display: flex;
+               letter-spacing: 10px;
+}
+#color1{ color: #E55473;}
+#color2{ color: green;}
+#color3{ color: violet}
+#color4{ color: blue;}
+#color5{ color: greenyellow;}
+#color6{ color: brown;
+}
+.footer{ background: black}
+
+.ending-text{ display: inline-flex;
+             padding: 10px;
+             align-items: flex-start;
+             gap: 60px;
 }
