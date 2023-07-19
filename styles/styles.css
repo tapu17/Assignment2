@@ -1,0 +1,47 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+body{ font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+
+.nav-container{ margin-left: 160px;
+               min-height: 50px;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+}
+
+.logo-container img{ width: 50px;
+                    margin: 8px;
+                    object-fit: cover;
+}
+.nav-items-container{border: 20px;
+                   display: flex;
+                   justify-content: space-between;
+                     
+}
+.nav-items-container a{ display: flex;
+                     font-size: 12px;
+                      margin-right: 100px;
+                      width: 50%;
+                      border: 1px;
+                      text-decoration: none;
+                      align-items: center;
+                      justify-content: space-between;
+}
+.logo-container{ display: flex;
+                align-items: center;
+                 border: 45px;
+}
+
+.hive-color{   color: rgb(225, 32, 177);
+} 
+.logo-container p{  font-size: 30px; 
+}
+.background-btn{ background-color:  rgb(225, 32, 177);
+                padding: 4px 8px;
+                border-radius: 10px;
+
+}
